@@ -11,7 +11,7 @@ html {
     background-image: url('../img/footer/footer.svg');
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
 }

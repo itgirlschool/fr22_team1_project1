@@ -1,3 +1,41 @@
 @import url(idea.css);
 @import url(footer.css);
 @import url(navbar.css);
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    background-color: #00D285;
+    color: #FFFFFF;
+}
+
+/* .btn:visited {
+    border: none;
+    color: #000000;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:hover {
+    border: none;
+    color: #000000;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:active {
+    border: none;
+    color: #000000;
+    outline: none;
+    box-shadow: none;
+} */

@@ -53,6 +53,15 @@
     text-transform: uppercase;
 }
 
+/* .btn-idea:visited,
+.btn-idea:hover,
+.btn-idea:active {
+    border: 0;
+    color: #000000;
+    outline: none;
+    box-shadow: none;
+} */
+
 /* Медиа */
 
 @media screen and (min-width:761px) and (max-width:1024px) {
