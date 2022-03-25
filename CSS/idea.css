@@ -12,6 +12,7 @@
     font-size: 36px;
     line-height: 1.5;
     color: #262626;
+    width: 100%;
 }
 
 .idea__subtitle {
@@ -22,6 +23,7 @@
     font-size: 18px;
     line-height: 1.5;
     color: #C4C4C4;
+    width: 100%
 }
 
 .btn-idea {
