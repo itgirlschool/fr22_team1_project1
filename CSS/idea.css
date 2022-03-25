@@ -6,7 +6,8 @@
 .idea__title {
     margin: 0;
     padding: 101px 0 0 0px;
-    font-family: 'Poppins-Medium';
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 1.5;
