@@ -13,7 +13,6 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-
 }
 
 .nav-link {
@@ -22,7 +21,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    margin-left: 40px;
+    margin-left: 23px;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
@@ -30,9 +29,7 @@
     color: #219653;
 }
 
-/* @media (min-width: 821px) {
-    .navbar-expand-md .navbar .navbar-dark {
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-    }
-} */
+.navbar-dark .navbar-nav .nav-link {
+    /* color: rgba(255, 255, 255, .5); */
+    background: rgba(0, 0, 0, 0.897);
+}
