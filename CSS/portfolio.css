@@ -1,0 +1,214 @@
+.main-portfolio {
+    background-color: #EBFAF4;
+    position: relative;
+}
+
+.portfolio-about {
+    background-image: url(../img/portfolio/img1.png);
+    height: 418px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20%;
+}
+
+.portfolio-dotters-image {
+    position: absolute;
+    bottom: -10px;
+    left: -36px;
+}
+
+.portfolio-dotters-single {
+    position: absolute;
+    right: 0%;
+}
+
+.portfolio-vector {
+    position: absolute;
+    top: -4%;
+    left: -85%;
+    z-index: 1;
+    max-width: 90vw;
+}
+
+.portfolio-description,
+.portfolio-article {
+    font-size: 1.813em;
+    font-weight: 500;
+}
+
+.poppins {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.portfolio-cards {
+    background-color: #000000;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 0.813em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.portfolio-image {
+    margin-bottom: 2%;
+    max-width: 100%;
+}
+
+.portfolio-text {
+    margin-bottom: 3%;
+}
+
+
+.portfolio-button {
+    background-color: #EBFAF4;
+    border-radius: 10px;
+    width: 215px;
+    height: 137px;
+    cursor: pointer;
+    border: none;
+    margin-right: 24px;
+    margin-top: 10px;
+    font-size: 0.875em;
+}
+
+.button-texstyle {
+    color: #00D285;
+    font-size: 1.25em;
+}
+
+.portfolio-creating {
+    margin: 3% 0;
+    /*     text-align: center; */
+}
+
+.portfolio-article-2 {
+    font-size: 2.25em;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .portfolio-button {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 971px) {
+    .portfolio-button {
+        width: 40%;
+    }
+
+    .portfolio-article-2 {
+        font-size: calc(20px + 16 * (100vw / 1280));
+    }
+
+    .portfolio-description,
+    .portfolio-article {
+        font-weight: 500;
+        font-size: calc(17px + 12 * (100vw / 1280));
+    }
+}
+
+@media screen and (max-width: 826px) {
+    .portfolio-button {
+        width: 40%;
+    }
+
+    .portfolio-article-2 {
+        font-size: calc(17px + 13 * (100vw / 1280));
+    }
+
+    .portfolio-description,
+    .portfolio-article {
+        font-weight: 500;
+        font-size: calc(17px + 12 * (100vw / 1280));
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio-creating {
+        text-align: center;
+    }
+
+    .portfolio-button {
+        width: 40%;
+    }
+
+    .portfolio-dotters-single {
+        position: absolute;
+        top: -45%;
+        height: auto;
+        width: 25%;
+    }
+
+    .portfolio-dotters-image {
+        width: 35%;
+    }
+
+    .portfolio-article-2 {
+        font-size: calc(20px + 16 * (100vw / 1280));
+    }
+
+    .portfolio-description,
+    .portfolio-article {
+        font-weight: 500;
+        font-size: calc(10px + 16 * (100vw / 1280));
+        position: relative;
+        z-index: 4;
+    }
+
+    .portfolio-button {
+        height: 70px;
+    }
+
+    .portfolio-suptitle-block,
+    .portfolio-suptitle {
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+
+    .line-about {
+        padding: 0;
+        margin: 20px;
+    }
+
+    .portfolio-about {
+        margin: 10px 20px;
+        height: 280px;
+        width: 280px;
+        background-position: center;
+    }
+
+    .portfolio-suptitle-block {
+        height: 40px;
+    }
+
+    .portfolio-vector {
+        position: absolute;
+        top: -90px;
+        left: 10%;
+        z-index: 1;
+        max-width: 90vw;
+    }
+
+    .portfolio-text {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .portfolio-about {
+        margin: 10px 20px;
+        height: 200px;
+        width: 200px;
+        background-position: center;
+    }
+
+    .portfolio-dotters-image {
+        position: absolute;
+        bottom: -10px;
+        left: -25px;
+    }
+}
