@@ -92,6 +92,10 @@
     .portfolio-button {
         width: 40%;
     }
+
+    .portfolio-vector {
+        width: 87vw;
+    }
 }
 
 @media screen and (max-width: 971px) {
@@ -113,6 +117,10 @@
 @media screen and (max-width: 826px) {
     .portfolio-button {
         width: 40%;
+    }
+
+    .portfolio-vector {
+        width: 85vw;
     }
 
     .portfolio-article-2 {
@@ -148,6 +156,10 @@
 
     .portfolio-article-2 {
         font-size: calc(20px + 16 * (100vw / 1280));
+    }
+
+    .portfolio-vector {
+        width: 90%;
     }
 
     .portfolio-description,
@@ -186,7 +198,7 @@
 
     .portfolio-vector {
         position: absolute;
-        top: -90px;
+        top: -290px;
         left: 10%;
         z-index: 1;
         max-width: 90vw;
