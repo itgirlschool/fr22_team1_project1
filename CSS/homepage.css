@@ -1,0 +1,221 @@
+.header-hp {
+    height: 100vh;
+    background-color: black;
+}
+
+.header-hp__row_container-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 50px;
+    margin: 88px 5px 21px 0;
+    color: #FFFFFF;
+}
+
+.header-hp__row_container-content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.header-hp__row_container-btn_green {
+    padding: 19px 55px 19px 58px;
+    margin-top: 23px;
+}
+
+button.header-hp__row_container-btn_white {
+    padding: 19px 44px 19px 47px;
+    background-color: white;
+    color: black;
+    margin-left: 34px;
+    margin-top: 23px;
+}
+
+button.header-hp__row_container-btn_white:hover {
+    color: #00D285;
+}
+
+.header-hp__row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.services-hp__img {
+    margin: 54px 0 54px 0;
+    width: 90%;
+    height: inherit;
+}
+
+.services-hp {
+    margin-top: 134px;
+    margin-bottom: 108px;
+}
+
+.services-hp__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000D2F;
+}
+
+.services-hp__title-descr {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000D2F;
+    margin-top: 25px;
+    margin-bottom: 33px;
+}
+
+.services-hp__option-img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.col-lg-12.services-hp__row {
+    padding-left: 0;
+}
+
+.services-hp__option-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000D2F;
+}
+
+.services-hp__option-content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000D2F;
+}
+
+.partnership-hp {
+    height: 60%;
+    background-image: url(../img/homepage/services-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partnership-hp__img {
+    margin: 54px 0 0 42px;
+    width: 100%;
+    height: inherit;
+}
+
+/* .partnership-hp__col-right {
+} */
+
+.partnership-hp__col-left {
+    background-image: url(../img/homepage/green-line.png);
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: contain;
+}
+
+.partnership-hp__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #262626;
+    margin: 127px 0 50px 81px;
+}
+
+.partnership-hp__content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #262626;
+    margin: 50px 0 51px 81px;
+}
+
+.partnership-hp__btn_green {
+    padding: 19px 32px 19px 32px;
+    margin-left: 81px;
+    margin-bottom: 125px;
+}
+
+.petrong-hp__col-left {
+    background-image: none;
+}
+
+.petrong-hp__btn_right {
+    padding: 19px 77px 19px 78px;
+}
+
+.petrong-hp__btn_left {
+    padding: 19px 56px 19px 57px;
+}
+
+.Promise-hp__container {
+    margin: 113px auto 134px auto;
+}
+
+.card-img-top {
+    width: 30px;
+    height: 30px;
+}
+
+.Promise-hp__title {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000D2F;
+    margin-bottom: 19px;
+}
+
+.promise-hp__content {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000D2F;
+    margin-bottom: 63px;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000D2F;
+}
+
+.card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    color: #000D2F;
+    padding-bottom: 72px;
+}
+
+.card-body {
+    background-color: #ebfaf45e;
+}
