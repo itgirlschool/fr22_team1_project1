@@ -4,6 +4,7 @@
 @import url(about.css);
 @import url(homepage.css);
 @import url(portfolio.css);
+@import url(expertise.css);
 
 .btn {
     display: inline-block;
