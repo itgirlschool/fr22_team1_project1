@@ -1,6 +1,13 @@
 .header-hp {
-    height: 100vh;
-    background-color: black;
+    background-image: url(../img/homepage/intro-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-hp__row_col {
+    /* background-image: url(../img/homepage/intro-img.png);
+    background-repeat: no-repeat;
+    background-position: left 200px top 100px; */
 }
 
 .header-hp__row_container-title {
@@ -25,6 +32,7 @@
 .header-hp__row_container-btn_green {
     padding: 19px 55px 19px 58px;
     margin-top: 23px;
+    margin-bottom: 166px;
 }
 
 button.header-hp__row_container-btn_white {
@@ -33,6 +41,7 @@ button.header-hp__row_container-btn_white {
     color: black;
     margin-left: 34px;
     margin-top: 23px;
+    margin-bottom: 166px;
 }
 
 button.header-hp__row_container-btn_white:hover {
@@ -218,4 +227,82 @@ button.header-hp__row_container-btn_white:hover {
 
 .card-body {
     background-color: #ebfaf45e;
+}
+
+.clients-hp {
+    background-color: rgba(0, 47, 166, 0.05);
+}
+
+.clients-hp__suptitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #000000;
+}
+
+h2.clients-hp__description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000D2F;
+    margin-top: 12px;
+    margin-bottom: 180px;
+}
+
+.PACIOLI {
+    margin-bottom: 57px;
+}
+
+div.clients-hp__card.card {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border-radius: 10px; */
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.card-body.clients-hp__card-body {
+    background-color: white;
+}
+
+.clients-hp__card-img-top {
+    width: 50px;
+    height: 50px;
+    margin: 20px 0 0 24px;
+}
+
+.card-text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+color: #000D2F;
+}
+
+.card-text__name {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #000D2F;
+}
+
+p.card-text__name {
+    padding-bottom: 28px;
+}
+
+.card-img-bg{
+    position: absolute;
+    top:165px;
+    right: 0px;
+    z-index: -1;
 }
