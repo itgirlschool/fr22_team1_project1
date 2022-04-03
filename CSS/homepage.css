@@ -306,3 +306,15 @@ p.card-text__name {
     right: 0px;
     z-index: -1;
 }
+
+.img-top{
+    position: absolute;
+    top: 45%;
+    margin-left: 40px;
+}
+
+.img-bottom {
+    position: absolute;
+    top: 55%;
+    margin-left: 40px;
+}
